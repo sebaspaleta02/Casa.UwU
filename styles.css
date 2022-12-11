@@ -72,3 +72,33 @@ text-decoration: none;
 text-transform: none;
 background-color: aliceblue;
 }
+@media only screen and (min-with: 600px)and(max-with: 991px){
+    body{
+        background-color:darkseagreen;
+        text-align: justify;
+    }
+    ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    img{
+        border-radius: 80px;
+        width: 20%;
+    }
+}
+@media only screen and (min-with: 992px){
+    body{
+        background-color:rgb(245, 176, 65);
+        text-align: justify;
+    }
+    ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    img{
+        border-radius: 90px;
+        width: 30%;
+    }
+}
