@@ -72,6 +72,51 @@ text-decoration: none;
 text-transform: none;
 background-color: aliceblue;
 }
+.nav-item:hover{
+    background-color: rgb(14, 131, 20);
+    color:rgb(255, 255, 255); 
+    text-decoration: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: row;
+    font-size: 25px;
+    flex-flow: row;
+}
+.navbar-brand:hover{
+    background-color: rgb(165, 128, 8);
+    color:rgb(255, 255, 255); 
+    text-decoration: solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex-direction: row;
+    font-size: 25px;
+    flex-flow: row;
+}
+.nav-item:active{
+    background-color: rgb(156, 196, 12);
+    color:rgb(255, 255, 255); 
+    text-decoration: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: row;
+    font-size: 25px;
+    flex-flow: row;
+}
+.navbar-brand:active{
+    background-color: rgb(156, 196, 12);
+    color:rgb(255, 255, 255); 
+    text-decoration: solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex-direction: row;
+    font-size: 25px;
+    flex-flow: row;
+}
+.gridContainerColumns{
+    border: 1px;
+    background-color: lightskyblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    padding: 10px;
+}
 @media only screen and (min-with: 600px)and(max-with: 991px){
     body{
         background-color:darkseagreen;
