@@ -10,3 +10,6 @@ SUBIR LA INFO LOCAL A GIT HUB
 ------------
 CLONAR LA INFO A OTRA COMPUTADORA 
 1. git clone "URL DE GITHUB"
+------------
+ACTIVAR SASS
+1. sass --watch sass/base.scss:base.css

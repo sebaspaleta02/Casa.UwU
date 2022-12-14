@@ -1,33 +1,29 @@
 *{
     margin: 0%;
 }
+img{
+    display: flex;
+}
 h1{
     text-align: center;
     color: rgb(245, 176, 65);
 }
-h6{
+/* h6{
     text-align: center;
     color: rgb(129, 156, 64);
-}
+} */
 h5{
     text-align: center;
     color: rgb(147, 224, 84);
 }
-.centrado{
-    text-align: center;
-    font-size: 20px;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-color: rgb(232, 248, 245 );
-    border-radius: 40px; 
-}
+
 .audio{
     text-align: center;
 }
 .centrado2{
     text-align: center;
     font-size: 40px;
-    color: rgb(220, 118, 51);
+    /* color: rgb(220, 118, 51); */
 }
 .menu{
     text-align: left;
@@ -117,11 +113,25 @@ background-color: aliceblue;
     gap: 5px;
     padding: 10px;
 }
-@media only screen and (min-with: 600px)and(max-with: 991px){
+@media only screen and (min-width: 991px){
     body{
-        background-color:darkseagreen;
+        background-color:rgb(140, 236, 140);
         text-align: justify;
     }
+    h1{
+        color: darkred;
+        font-family: cursive;        
+    }
+    h3{
+        color: darkturquoise;
+        font-family: fantasy;
+        text-align: center;
+        background-color: darkgoldenrod;
+    }
+    h6{
+    text-align: center;
+    color: rgb(255, 3, 3);
+    } 
     ul{
     display: flex;
     flex-direction: row;
@@ -131,11 +141,33 @@ background-color: aliceblue;
         border-radius: 80px;
         width: 20%;
     }
+    .centrado{
+        text-align: center;
+        font-size: 20px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: rgb(232, 248, 245 );
+        border-radius: 40px; 
+    }
 }
-@media only screen and (min-with: 992px){
+@media only screen and (max-width: 992px){
     body{
         background-color:rgb(245, 176, 65);
-        text-align: justify;
+        text-align: center;
+    }
+    h1{
+        color: darkred;
+        font-family: cursive;        
+    }
+    h3{
+        color: darkturquoise;
+        font-family: fantasy;
+        text-align: center;
+        background-color: darkgoldenrod;
+    }
+    h6{
+    text-align: center;
+    color: chartreuse;
     }
     ul{
     display: flex;
@@ -144,6 +176,14 @@ background-color: aliceblue;
     }
     img{
         border-radius: 90px;
-        width: 30%;
+        width: 50%;
+    }
+    .centrado{
+        text-align: center;
+        font-size: 20px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: rgb(47, 236, 202);
+        border-radius: 40px; 
     }
 }
