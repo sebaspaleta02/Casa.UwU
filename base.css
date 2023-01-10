@@ -1,7 +1,33 @@
-/* h6{
-    background-color: $color-fondo;
-    color: rgb(215, 196, 234);
-    text-align: center;
-} */
+section .parrafo, section .centrado2 {
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 25px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%);
+  text-decoration: none;
+  text-transform: none;
+}
+section .centrado2 {
+  text-transform: uppercase;
+  background-color: chocolate;
+  text-align: center;
+}
+
+.btnEnviar {
+  background-color: rgb(59, 247, 2);
+  width: 1000px;
+  padding: 10px;
+  margin: 5px;
+  color: white;
+}
+
+.btnLimpiar {
+  background-color: rgb(215, 14, 0);
+  width: 1000px;
+  padding: 10px;
+  margin: 5px;
+  color: white;
+}
 
 /*# sourceMappingURL=base.css.map */

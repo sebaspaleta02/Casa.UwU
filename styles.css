@@ -16,10 +16,6 @@ h5{
 .audio{
     text-align: center;
 }
-.centrado2{
-    text-align: center;
-    font-size: 40px;
-}
 .menu{
     text-align: left;
     font-size: large;
@@ -48,20 +44,6 @@ h5{
     font-size: medium;
     font-style: italic;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
-}
-.i{
-    text-align: center;
-    font-size: medium;
-    color: rgb(142, 68, 173);
-}
-.parrafo{
-text-align: justify;
-font-size: medium;
-font-family: Arial, Helvetica, sans-serif;
-font-style: normal;
-text-decoration: none;
-text-transform: none;
-background-color: aliceblue;
 }
 .nav-item:hover{
     background-color: rgb(14, 131, 20);
