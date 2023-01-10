@@ -8,10 +8,6 @@ h1{
     text-align: center;
     color: rgb(245, 176, 65);
 }
-/* h6{
-    text-align: center;
-    color: rgb(129, 156, 64);
-} */
 h5{
     text-align: center;
     color: rgb(147, 224, 84);
@@ -23,7 +19,6 @@ h5{
 .centrado2{
     text-align: center;
     font-size: 40px;
-    /* color: rgb(220, 118, 51); */
 }
 .menu{
     text-align: left;
@@ -113,7 +108,7 @@ background-color: aliceblue;
     gap: 5px;
     padding: 10px;
 }
-@media only screen and (min-width: 991px){
+@media only screen and (min-width: 900px){
     body{
         background-color:rgb(140, 236, 140);
         text-align: justify;
@@ -150,7 +145,7 @@ background-color: aliceblue;
         border-radius: 40px; 
     }
 }
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 901px){
     body{
         background-color:rgb(245, 176, 65);
         text-align: center;
