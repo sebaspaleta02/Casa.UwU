@@ -13,4 +13,4 @@ CLONAR LA INFO A OTRA COMPUTADORA
 ------------
 ACTIVAR SASS
 En la terminal git bash activar
-1. sass --watch sass/base.scss:base.css
+1. sass --watch sass/base.scss:CSS-SCSS/base.css

@@ -1,7 +1,7 @@
 /* Global */
 var saludo = "Hola , bienvenido al mejor sitio web";
 if(saludo){
-    var saludo = "Puede mejor el sitio web";
+    var saludo = "Puede ser mejor el sitio web";
     console.log(saludo);
 }
 
@@ -64,3 +64,32 @@ else
 {
     alert("Contraseña incorrecta");
 }
+
+/* Funciones - suma */
+alert("Esta función realiza una suma de números: ")
+function suma1 (a,b,c){
+let resultado = a + b + c;
+console.log(resultado);
+}
+const resultado1 = function (x,y,z){
+return x + y + z;
+}
+let a = parseFloat(prompt("Digita un numero: "));
+let b = parseFloat(prompt("Digita un numero: "));
+let c = parseFloat(prompt("Digita un numero: "));
+alert("Esta es la suma " + resultado1(a,b,c));
+
+/* Funciones - comparación */
+alert("Esta función realiza una comparación de números: ")
+
+function comparación1 (a,b,c){
+let resultado = a + b + c;
+console.log(resultado);
+}
+
+const resultado2 = function (x,y,z){
+return x + y + z;
+}
+let d = parseFloat(prompt("Digita un numero: "));
+let e = parseFloat(prompt("Digita un numero: "));
+alert("Esta es la comparación " + resultado1(a,b,c));
