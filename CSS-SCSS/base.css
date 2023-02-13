@@ -1,32 +1,21 @@
-/* section{
-    .parrafo{
-        text-align: center;
-        font-size: 25px;
-        font-family: Arial, Helvetica, sans-serif;
-        border-radius: 25px;
-        background: rgb(131,58 ,180);
-        background:linear-gradient(90deg,rgb(131,58 ,180,1)0%) ;
-        text-decoration: none;
-        text-transform: none;
-    } 
-    .centrado2{
-        @extend .parrafo;
-        text-transform: uppercase;
-        background-color:chocolate;
-        text-align: center;
-    }
-} */
 .BD .fila {
-  margin-top: 2.2rem;
+  margin-top: 0rem;
+}
+
+.BD .bodyContainer p {
+  margin-top: 0rem;
+  text-align: center;
+  font-size: 3rem;
 }
 
 .BD {
   margin-top: 4.3rem 0;
+  background: radial-gradient(#e2ab73, #ccb392);
 }
 
 .Co3 {
   flex-basis: 30%;
-  min-width: 16rem;
+  min-width: 2rem;
   margin-bottom: 1.8rem;
 }
 
@@ -35,12 +24,84 @@
 }
 
 .bodyContainer {
-  max-width: 68rem;
+  max-width: 125rem;
   margin: auto;
   padding-left: 0.6rem;
   padding-right: 0.6rem;
 }
 
+.piePag {
+  width: 100%;
+  background: radial-gradient(#e2ab73, #ccb392);
+}
+
+.piePag .G1 {
+  width: 100%;
+  max-width: 125rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3.125rem;
+  padding: 2.8rem 0rem;
+}
+
+.piePag .G1 .CJA figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.piePag .G1 .CJA figure img {
+  width: 32rem;
+  height: 20rem;
+  border-radius: 2rem;
+}
+
+.piePag .G1 .CJA h2 {
+  color: black;
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+}
+
+.piePag .G1 .CJA p {
+  color: black;
+  margin-bottom: 0.6rem;
+}
+
+.piePag .G1 .CJA .redes {
+  display: inline-block;
+  text-decoration: none;
+  min-height: 2rem;
+  min-width: 2rem;
+  line-height: 2rem;
+  color: black;
+  margin-right: 0.6rem;
+  background: radial-gradient(#e2ab73, #ccb392);
+  text-align: center;
+  transition: all 300ms ease;
+}
+
+.piePag .G2 {
+  background: radial-gradient(#e2ab73, #ccb392);
+  padding: 0.9rem 0.6rem;
+  text-align: center;
+  color: aliceblue;
+}
+
+.piePag .G2 small {
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 50rem) {
+  .piePag .G1 {
+    width: 80%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+    padding: 1.5rem 0rem;
+  }
+}
 .Bnav {
   display: flex;
   align-items: center;
@@ -50,7 +111,7 @@
 nav {
   flex: 1;
   text-align: right;
-  font-size: 0.75rem;
+  font-size: 1.25rem;
 }
 
 nav ul {
@@ -70,10 +131,11 @@ a {
 
 p {
   color: black;
+  font-size: 1.5rem;
 }
 
 .headerContainer {
-  max-width: 82rem;
+  max-width: 125rem;
   margin: auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -98,7 +160,7 @@ p {
 }
 
 .Co2 h1 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   line-height: 3.75rem;
   margin: 1.5rem 0;
 }
@@ -133,13 +195,13 @@ header .fila {
   margin-top: 1.8rem;
 }
 
-/* $color-fondo: rgb(104, 99, 126);
-
-.btnEnviar{
-    @include btnFormulario(1000px, rgb(59, 247, 2))
+.CN {
+  padding-left: 1rem;
+  display: inline-block;
+  font-size: 3.5rem;
+  line-height: 3.75rem;
+  margin: 1rem;
+  text-align: left;
 }
-.btnLimpiar{
-    @include btnFormulario(1000px, rgb(215,14,0))
-} */
 
 /*# sourceMappingURL=base.css.map */

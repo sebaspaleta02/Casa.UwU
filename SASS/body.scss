@@ -1,37 +1,25 @@
-/* section{
-    .parrafo{
-        text-align: center;
-        font-size: 25px;
-        font-family: Arial, Helvetica, sans-serif;
-        border-radius: 25px;
-        background: rgb(131,58 ,180);
-        background:linear-gradient(90deg,rgb(131,58 ,180,1)0%) ;
-        text-decoration: none;
-        text-transform: none;
-    } 
-    .centrado2{
-        @extend .parrafo;
-        text-transform: uppercase;
-        background-color:chocolate;
-        text-align: center;
-    }
-} */
 .BD .fila {
-    margin-top: 2.2rem;
+    margin-top: 0rem;
+}
+.BD .bodyContainer p {
+    margin-top: 0rem;
+    text-align: center;    
+    font-size: 3rem;
 }
 .BD{
     margin-top: 4.3rem 0;
+    background: radial-gradient(#e2ab73,#ccb392);
 }
 .Co3{
     flex-basis: 30%;
-    min-width: 16rem;
+    min-width: 2rem;
     margin-bottom: 1.8rem;
 }
 .Co3 img{
     width: 100%;
 }
 .bodyContainer{
-    max-width: 68rem;
+    max-width: 125rem;
     margin: auto;
     padding-left: .6rem;
     padding-right: .6rem;

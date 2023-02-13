@@ -1,0 +1,63 @@
+.piePag{
+    width: 100%;
+    background: radial-gradient(#e2ab73,#ccb392);
+}
+.piePag .G1{
+width: 100%;
+max-width: 125rem;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-gap: 3.125rem;
+padding: 2.8rem 0rem;
+}
+.piePag .G1 .CJA figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.piePag .G1 .CJA figure img{
+    width: 32rem;
+    height: 20rem;
+    border-radius: 2rem;
+}
+.piePag .G1 .CJA h2{
+    color:black;
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+}
+.piePag .G1 .CJA p{
+    color: black;
+    margin-bottom: .6rem;
+}
+.piePag .G1 .CJA .redes{
+    display: inline-block;
+    text-decoration: none;
+    min-height: 2rem;
+    min-width: 2rem;
+    line-height: 2rem;
+    color: black;
+    margin-right: .6rem;
+    background: radial-gradient(#e2ab73,#ccb392);
+    text-align: center;
+    transition: all 300ms ease;
+}
+.piePag .G2{
+    background: radial-gradient(#e2ab73,#ccb392);
+    padding: .9rem .6rem;
+    text-align: center;
+    color: aliceblue;
+}
+.piePag .G2 small{
+    font-size: .9rem;
+}
+@media screen and (max-width:50rem) {
+    .piePag .G1{
+        width: 80%;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 2rem;
+        padding: 1.5rem 0rem;
+        }
+}
