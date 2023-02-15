@@ -1,78 +1,94 @@
-.Bnav{
+.Bnav {
     display: flex;
     align-items: center;
     padding: .75rem;
 }
-nav{
+
+nav {
     flex: 1;
-    text-align: right; 
-    font-size: 1.25rem;  
+    text-align: right;
+    font-size: 1.25rem;
 }
-nav ul{
+
+nav ul {
     display: inline-block;
     list-style-type: none;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     margin: 1rem;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
-p{
+
+p {
     color: black;
     font-size: 1.5rem;
 }
-.headerContainer{
+
+.headerContainer {
     max-width: 125rem;
     margin: auto;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
-.fila{
+
+.fila {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.Co2{
+
+.Co2 {
     flex-basis: 50%;
     min-width: 19rem;
     padding: 2.5rem;
 }
-.Co2 img{
+
+.Co2 img {
     max-width: 100%;
     padding: 2.5rem 0;
 }
-.Co2 h1{
-font-size: 3.5rem;
-line-height: 3.75rem;
-margin: 1.5rem 0;
+
+.Co2 h1 {
+    font-size: 3.5rem;
+    line-height: 3.75rem;
+    margin: 1.5rem 0;
 }
-.btn{
-@include btn(#c9842f);
+
+.btn {
+    @include btn(#c9842f);
 }
-.btn:hover{
+
+.btn:hover {
     background: #ff9513;
 }
-nav ul li:hover{
+
+nav ul li:hover {
     background: #ff9513;
     font-size: 1.1rem;
     color: black;
     text-decoration: none;
 }
-header{
-    background: radial-gradient(#e2ab73,#ccb392);
+
+header {
+    background: radial-gradient(#e2ab73, #ccb392);
 }
-header .fila{
+
+header .fila {
     margin-top: 1.8rem;
 }
-.CN{
+
+.CN {
     padding-left: 1rem;
     display: inline-block;
-    font-size: 3.5rem; 
+    font-size: 3.5rem;
     line-height: 3.75rem;
-    margin: 1rem ;
-    text-align: left; 
+    margin: 1rem;
+    text-align: left;
 }
