@@ -1,0 +1,46 @@
+.BA {
+    width: 100%;
+    margin: auto;
+    padding: 2.8rem;
+    display: block;
+    text-align: center;
+    background: radial-gradient(#e2ab73, #ccb392);
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    ul {
+        text-align: left;
+        margin-top: 3rem;
+        margin-left: 1rem;
+        font-size: 1.8rem;
+        text-decoration: underline;
+    }
+
+    #UL2 {
+        width: 100%;
+        margin: auto;
+        margin-top: 1rem;
+        padding: 1rem;
+        font-size: 1.8rem;
+        display: block;
+        text-align: left;
+    }
+
+    #btn1 {
+        @include btn(rgb(197, 145, 32))
+    }
+
+    #btn1:hover {
+        background: #ff9513;
+    }
+
+    #btn2 {
+        @include btn(rgb(197, 145, 32))
+    }
+
+    #btn2:hover {
+        background: #ff9513;
+    }
+}

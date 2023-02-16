@@ -204,4 +204,58 @@ header .fila {
   text-align: left;
 }
 
+.BA {
+  width: 100%;
+  margin: auto;
+  padding: 2.8rem;
+  display: block;
+  text-align: center;
+  background: radial-gradient(#e2ab73, #ccb392);
+}
+.BA h1 {
+  font-size: 2.5rem;
+}
+.BA ul {
+  text-align: left;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  font-size: 1.8rem;
+  text-decoration: underline;
+}
+.BA #UL2 {
+  width: 100%;
+  margin: auto;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1.8rem;
+  display: block;
+  text-align: left;
+}
+.BA #btn1 {
+  display: inline-block;
+  background: rgb(197, 145, 32);
+  color: #000000;
+  padding: 0.5rem 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  transition: 25ms;
+}
+.BA #btn1:hover {
+  background: #ff9513;
+}
+.BA #btn2 {
+  display: inline-block;
+  background: rgb(197, 145, 32);
+  color: #000000;
+  padding: 0.5rem 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  transition: 25ms;
+}
+.BA #btn2:hover {
+  background: #ff9513;
+}
+
 /*# sourceMappingURL=base.css.map */

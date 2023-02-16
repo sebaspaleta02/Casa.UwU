@@ -100,20 +100,18 @@ for (i = 0; i < array.length; i++) {
 }
 /* swtich caso cine semana 7*/
 let edad3 = parseInt(prompt("Digita tu edad para el caso del switch"));
-if (edad3>=18){
+if (edad3 >= 18) {
     edad4 = 'Mayor'
-}else{
+} else {
     edad4 = 'Menor'
 }
-
-
-switch(edad4){
+switch (edad4) {
     case 'Mayor':
-    console.log('Tienes descuento por ser mayor de edad del 25%');
-    break;
+        console.log('Tienes descuento por ser mayor de edad del 25%');
+        break;
     case 'Menor':
-    console.log('Tienes descuento por ser menor de edad del 50%');
-    break;
+        console.log('Tienes descuento por ser menor de edad del 50%');
+        break;
 
 }
 /* SEMANA 7 */
@@ -134,11 +132,11 @@ zapatos.forEach(stockZ => {
 const zapatosFiltrado = zapatos.filter(item => item.precios > 90);
 console.log("Ahora las zapatillas mas caras: ", zapatosFiltrado);
 
-zapatos.sort((a, b) =>{
-    if (a.marca < b.marca){
+zapatos.sort((a, b) => {
+    if (a.marca < b.marca) {
         return -1;
     }
-    if (b.marca == a.marca){
+    if (b.marca == a.marca) {
         return 0;
     }
     return 1;
@@ -152,7 +150,7 @@ for (i = 0; i < zapatos.length; i++) {
     let prom = zapatos[i].precios;
     prom2 = prom2 + prom
 };
-console.log("El promedio es: ", prom2/4);
+console.log("El promedio es: ", prom2 / 4);
 
 /* Mayor costo */
 let max = 0;
